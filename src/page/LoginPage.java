@@ -82,7 +82,7 @@ gbc.gridwidth = 1;
                     new HomePage(username);
                     dispose();
                 } else {
-                    
+                    JOptionPane.showMessageDialog(this, "username atau password salah");
                 }
             } else if(e.getSource() == resetButton) {
                 usernameField.setText("");
