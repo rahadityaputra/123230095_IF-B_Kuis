@@ -78,7 +78,7 @@ gbc.gridwidth = 1;
             if(e.getSource() == loginButton) {
                 String username = usernameField.getText();
                 String password = passwordField.getText();
-                if (username.equals("rahaditya") && password.equals("123230095") || true) {
+                if (username.equals("rahaditya") && password.equals("123230095")) {
                     new HomePage(username);
                     dispose();
                 } else {

@@ -105,6 +105,8 @@ public class HomePage extends JFrame implements ActionListener {
                  //            int jumlahApel = Integer.getInteger(apelField.getText());
 //            int jumlahJeruk = Integer.getInteger(jerukField.getText());
 //            int jumlahMangga = Integer.getInteger(manggField.getText());
+
+              // soory mas saya lupa conver dari string ke integer jadi saya hard koding saja
                 new BuyPage(2, 2, 2, username);
                   dispose();
             } else  if(e.getSource() == logoutButton) {
